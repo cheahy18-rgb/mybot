@@ -16,11 +16,11 @@ bot.hears('អាវ', async (ctx) => {
   await ctx.replyWithMediaGroup([
     {
       type: 'photo',
-      media:  'https://imgur.com/a/CPhhxjw' ,
+      media:  'https://i.imgur.com/UoNPEit.png',
     },
     {
       type: 'photo',
-      media:  'https://imgur.com/a/lTvqmPX' ,
+      media:  'https://i.imgur.com/NJ5aF6s.png' ,
       caption: 'ម៉ូដែល: អាវវ៉ែនតា\nតំលៃ: 15,000រៀល'
     }
   ]);
