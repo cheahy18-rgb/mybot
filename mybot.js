@@ -1,5 +1,13 @@
 const { Telegraf, Markup } = require('telegraf');
+const http = require('http');
 const bot = new Telegraf(process.env.BOT_TOKEN);
+// Keep alive server
+const server = http.createServer((req, res) => {
+  res.writeHead(200);
+  res.end('Bot is alive!');
+});
+server.listen(process.env.PORT || 3000);
+
 
 const products = {
   'អាវ': [
