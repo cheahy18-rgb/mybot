@@ -1,16 +1,12 @@
 {
   "name": "mybot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "mybot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node mybot.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "telegraf": "^4.16.3"
+    "telegraf": "^4.16.3",
+    "mongoose": "^8.0.0"
   }
 }
