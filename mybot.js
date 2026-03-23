@@ -64,7 +64,7 @@ async function trackUser(ctx) {
 // Main Menu
 function mainMenu() {
   return Markup.keyboard([
-    ['👕 អាវ', '👔 ខ្សែក្រវ៉ាត់'],
+    ['👕 អាវ', 'ខោ', '👔 ខ្សែក្រវ៉ាត់'],
     ['👟 ស្បែកជើង', '🔍 ស្វែងរក'],
     ['💰 តារាងតំលៃ', '📞 ទំនក់ទំនង']
   ]).resize();
